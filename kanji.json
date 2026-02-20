@@ -3,18 +3,27 @@
       "kanji":"一",
       "kun":"ひと",
       "on":"いち",
-      "kunVocab":"一人",
-      "kunVocabRuby":"ひとり",
-      "onVocab":"一時",
-      "onVocabRuby":"いちじ"
+      "kunVocab":["一","人"],
+      "kunVocabRuby":["ひと","り"],
+      "onVocab":["一","時"],
+      "onVocabRuby":["いち","じ"]
    },
    {
       "kanji":"二",
       "kun":"ふた",
       "on":"に",
-      "kunVocab":"二人",
-      "kunVocabRuby":"ふたり",
-      "onVocab":"二時",
-      "onVocabRuby":"にじ"
+      "kunVocab":["二","人"],
+      "kunVocabRuby":["ふた","り"],
+      "onVocab":["二","時"],
+      "onVocabRuby":["に","じ"]
+   },
+   {
+      "kanji":"上",
+      "kun":"うえ、(あ)がる",
+      "on":"じょう",
+      "kunVocab":["上","がる"],
+      "kunVocabRuby":["あ",""],
+      "onVocab":["上","下"],
+      "onVocabRuby":["じょう","げ"]
    }
 ]

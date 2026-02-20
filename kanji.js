@@ -30,8 +30,18 @@ function addKanjiData(kanji) {
     on.textContent = `On-yomi: ${kanji.on}`;
     onVocab.textContent = "On-yomi Vocabulary: "
 
-    addRuby(kunVocab, kanji.kunVocab, kanji.kunVocabRuby);
-    addRuby(onVocab, kanji.onVocab, kanji.onVocabRuby);
+    for (let i = 0; i < kanji.kunVocab.length; i++) {
+        if (kanji.kunVocabRuby !== "") addRuby(kunVocab, kanji.kunVocab[i], kanji.kunVocabRuby[i]);
+        else addWithoutRuby(kunVocab, kanji.kunVocab[i]);
+    }
+
+    for (let i = 0; i < kanji.onVocab.length; i++) {
+        if (kanji.onVocabRuby !== "") addRuby(onVocab, kanji.onVocab[i], kanji.onVocabRuby[i]);
+        else addWithoutRuby(onVocab, kanji.onVocab[i]);
+    }
+
+    // addRuby(kunVocab, kanji.kunVocab, kanji.kunVocabRuby);
+    // addRuby(onVocab, kanji.onVocab, kanji.onVocabRuby);
 }
 
 function addRuby(parent, mainText, rubyText) {
@@ -50,8 +60,10 @@ function addRuby(parent, mainText, rubyText) {
     rp1.textContent = "("
     rt.textContent = rubyText;
     rp2.textContent = ")";
+}
 
-    console.log(rp1.textContent);
+function addWithoutRuby(parent, mainText) {
+    parent.textContent += mainText;
 }
 
 populate();
