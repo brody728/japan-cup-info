@@ -7,5 +7,14 @@
       "kunVocabRuby":"ひとり",
       "onVocab":"一時",
       "onVocabRuby":"いちじ"
+   },
+   {
+      "kanji":"二",
+      "kun":"ふた",
+      "on":"に",
+      "kunVocab":"二人",
+      "kunVocabRuby":"ふたり",
+      "onVocab":"二時",
+      "onVocabRuby":"にじ"
    }
 ]
