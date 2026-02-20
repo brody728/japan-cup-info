@@ -11,7 +11,7 @@ async function populate() {
 }
 
 function addKanjiData(kanji) {
-    const kanjiChar = document.createElement("p");
+    const kanjiChar = document.createElement("h2");
     const kun = document.createElement("p");
     const on = document.createElement("p");
     const kunVocab = document.createElement("p");
