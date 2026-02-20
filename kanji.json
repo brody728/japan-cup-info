@@ -122,7 +122,7 @@
       "on":"えん",
       "kunVocab":["円","い"],
       "kunVocabRuby":["まる",""],
-      "onVocab":["はち","円"],
+      "onVocab":["八","円"],
       "onVocabRuby":["はち","えん"]
    },
    {
@@ -176,8 +176,8 @@
       "on":"せい",
       "kunVocab":["生","きる"],
       "kunVocabRuby":["い",""],
-      "onVocab":["先","日"],
-      "onVocabRuby":["せん","じつ"]
+      "onVocab":["先","生"],
+      "onVocabRuby":["せん","せい"]
    },
    {
       "kanji":"上",
