@@ -7,6 +7,10 @@ async function populate() {
     const response = await fetch(request);
     const kanjiList = await response.json();
 
+    for (kanji of kanjiList) addKanjiData(kanji);
+}
+
+function addKanjiData(kanji) {
     const kanjiChar = document.createElement("p");
     const kun = document.createElement("p");
     const on = document.createElement("p");
@@ -20,12 +24,14 @@ async function populate() {
     body.appendChild(kunVocab);
     body.appendChild(onVocab);
 
-    kun.textContent = kanjiList[0].kun;
-    on.textContent = kanjiList[0].on;
-    kanjiChar.textContent = kanjiList[0].kanji;
+    kanjiChar.textContent = kanji.kanji;
+    kun.textContent = `Kun-yomi: ${kanji.kun}`;
+    kunVocab.textContent = "Kun-yomi Vocabulary: "
+    on.textContent = `On-yomi: ${kanji.on}`;
+    onVocab.textContent = "On-yomi Vocabulary: "
 
-    addRuby(kunVocab, kanjiList[0].kunVocab, kanjiList[0].kunVocabRuby);
-    addRuby(onVocab, kanjiList[0].onVocab, kanjiList[0].onVocabRuby);
+    addRuby(kunVocab, kanji.kunVocab, kanji.kunVocabRuby);
+    addRuby(onVocab, kanji.onVocab, kanji.onVocabRuby);
 }
 
 function addRuby(parent, mainText, rubyText) {
