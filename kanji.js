@@ -39,9 +39,6 @@ function addKanjiData(kanji) {
         if (kanji.onVocabRuby !== "") addRuby(onVocab, kanji.onVocab[i], kanji.onVocabRuby[i]);
         else addWithoutRuby(onVocab, kanji.onVocab[i]);
     }
-
-    // addRuby(kunVocab, kanji.kunVocab, kanji.kunVocabRuby);
-    // addRuby(onVocab, kanji.onVocab, kanji.onVocabRuby);
 }
 
 function addRuby(parent, mainText, rubyText) {
