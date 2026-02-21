@@ -31,15 +31,19 @@ function addKanjiData(kanji) {
     onVocab.textContent = "On-yomi Vocabulary: "
 
     for (let i = 0; i < kanji.kunVocab.length; i++) {
-        for (let j = 0; j<kanji.kunVocab[i].length; j++) {
-            if (kanji.kunVocabRuby !== "") addRuby(kunVocab, kanji.kunVocab[i][j], kanji.kunVocabRuby[i][j]);
+        for (let j = 0; j < kanji.kunVocab[i].length; j++) {
+            if (kanji.kunVocabRuby[i][j] !== "") addRuby(kunVocab, kanji.kunVocab[i][j], kanji.kunVocabRuby[i][j]);
             else addWithoutRuby(kunVocab, kanji.kunVocab[i][j]);
         }
+        if (i !== kanji.kunVocab.length - 1) kunVocab.append("、");
     }
 
     for (let i = 0; i < kanji.onVocab.length; i++) {
-        if (kanji.onVocabRuby !== "") addRuby(onVocab, kanji.onVocab[i], kanji.onVocabRuby[i]);
-        else addWithoutRuby(onVocab, kanji.onVocab[i]);
+        for (let j = 0; j < kanji.onVocab[i].length; j++) {
+            if (kanji.onVocabRuby[i][j] !== "") addRuby(onVocab, kanji.onVocab[i][j], kanji.onVocabRuby[i][j]);
+            else addWithoutRuby(onVocab, kanji.onVocab[i][j]);
+        }
+        if (i !== kanji.onVocab.length - 1) onVocab.append("、");
     }
 }
 
@@ -62,7 +66,7 @@ function addRuby(parent, mainText, rubyText) {
 }
 
 function addWithoutRuby(parent, mainText) {
-    parent.textContent += mainText;
+    parent.append(mainText);
 }
 
 populate();
