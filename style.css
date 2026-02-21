@@ -46,3 +46,24 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+div.content {
+    display: flex;
+}
+
+div.left,
+div.right {
+    flex: .5;
+}
+
+div.center {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.kanji {
+    flex: 1 1 15rem;
+    padding: 1rem;
+}

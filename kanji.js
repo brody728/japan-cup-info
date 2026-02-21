@@ -1,4 +1,4 @@
-const body = document.querySelector("body");
+const center = document.querySelector(".center");
 
 async function populate() {
     const file = "./kanji.json";
@@ -11,6 +11,7 @@ async function populate() {
 }
 
 function addKanjiData(kanji) {
+    const kanjiEntry = document.createElement("div")
     const kanjiChar = document.createElement("h2");
     const meaning = document.createElement("p");
     const kun = document.createElement("p");
@@ -18,13 +19,15 @@ function addKanjiData(kanji) {
     const kunVocab = document.createElement("p");
     const onVocab = document.createElement("p");
 
+    kanjiEntry.setAttribute("class", "kanji")
 
-    body.appendChild(kanjiChar);
-    body.appendChild(meaning);
-    body.appendChild(kun);
-    body.appendChild(on);
-    body.appendChild(kunVocab);
-    body.appendChild(onVocab);
+    center.appendChild(kanjiEntry);
+    kanjiEntry.appendChild(kanjiChar);
+    kanjiEntry.appendChild(meaning);
+    kanjiEntry.appendChild(kun);
+    kanjiEntry.appendChild(on);
+    kanjiEntry.appendChild(kunVocab);
+    kanjiEntry.appendChild(onVocab);
 
     kanjiChar.textContent = kanji.kanji;
     meaning.textContent = `Meaning: ${kanji.meaning}`;
