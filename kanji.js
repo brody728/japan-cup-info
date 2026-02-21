@@ -12,6 +12,7 @@ async function populate() {
 
 function addKanjiData(kanji) {
     const kanjiChar = document.createElement("h2");
+    const meaning = document.createElement("p");
     const kun = document.createElement("p");
     const on = document.createElement("p");
     const kunVocab = document.createElement("p");
@@ -19,12 +20,14 @@ function addKanjiData(kanji) {
 
 
     body.appendChild(kanjiChar);
+    body.appendChild(meaning);
     body.appendChild(kun);
     body.appendChild(on);
     body.appendChild(kunVocab);
     body.appendChild(onVocab);
 
     kanjiChar.textContent = kanji.kanji;
+    meaning.textContent = `Meaning: ${kanji.meaning}`;
     kun.textContent = `Kun-yomi: ${kanji.kun}`;
     kunVocab.textContent = "Kun-yomi Vocabulary: "
     on.textContent = `On-yomi: ${kanji.on}`;
