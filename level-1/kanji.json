@@ -6,8 +6,10 @@
       "on":"いち",
       "kunVocab":[["一","人"],["一","つ"]],
       "kunVocabRuby":[["ひと","り"],["ひと",""]],
+      "kunVocabMeaning":[["one person","one thing"]],
       "onVocab":[["一","時"]],
-      "onVocabRuby":[["いち","じ"]]
+      "onVocabRuby":[["いち","じ"]],
+      "onVocabMeaning":[["one o'clock"]]
    },
    {
       "kanji":"二",
@@ -16,8 +18,10 @@
       "on":"に",
       "kunVocab":[["二","人"]],
       "kunVocabRuby":[["ふた","り"]],
+      "kunVocabMeaning":[["two people"]],
       "onVocab":[["二","時"]],
-      "onVocabRuby":[["に","じ"]]
+      "onVocabRuby":[["に","じ"]],
+      "onVocabMeaning":[["two o'clock"]]
    },
    {
       "kanji":"三",
@@ -26,8 +30,10 @@
       "on":"み、みっ",
       "kunVocab":[["三","つ"]],
       "kunVocabRuby":[["みっ",""]],
+      "kunVocabMeaning":[["three things"]],
       "onVocab":[["三","時"]],
-      "onVocabRuby":[["さん","じ"]]
+      "onVocabRuby":[["さん","じ"]],
+      "onVocabMeaning":[["three o'clock"]]
    },
    {
       "kanji":"四",
@@ -36,8 +42,10 @@
       "on":"し",
       "kunVocab":[["四","つ"]],
       "kunVocabRuby":[["よっ",""]],
+      "kunVocabMeaning":[["four things"]],
       "onVocab":[["四","月"]],
-      "onVocabRuby":[["し","がつ"]]
+      "onVocabRuby":[["し","がつ"]],
+      "onVocabMeaning":[["April"]]
    },
    {
       "kanji":"五",
@@ -46,8 +54,10 @@
       "on":"ご",
       "kunVocab":[["五","つ"]],
       "kunVocabRuby":[["いつ",""]],
+      "kunVocabMeaning":[["five things"]],
       "onVocab":[["五","時"]],
-      "onVocabRuby":[["ご","じ"]]
+      "onVocabRuby":[["ご","じ"]],
+      "onVocabMeaning":[["five o'clock"]]
    },
    {
       "kanji":"六",
@@ -56,8 +66,10 @@
       "on":"ろく",
       "kunVocab":[["六","日"]],
       "kunVocabRuby":[["むい","か"]],
+      "kunVocabMeaning":[["sixth day (of a month)"]],
       "onVocab":[["六","時"]],
-      "onVocabRuby":[["ろく","じ"]]
+      "onVocabRuby":[["ろく","じ"]],
+      "onVocabMeaning":[["six o'clock"]]
    },
    {
       "kanji":"七",
@@ -66,8 +78,10 @@
       "on":"しち",
       "kunVocab":[["七","つ"]],
       "kunVocabRuby":[["なな",""]],
+      "kunVocabMeaning":[["seven things"]],
       "onVocab":[["七","時"]],
-      "onVocabRuby":[["しち","じ"]]
+      "onVocabRuby":[["しち","じ"]],
+      "onVocabMeaning":[["seven o'clock"]]
    },
    {
       "kanji":"八",
@@ -76,8 +90,10 @@
       "on":"はち",
       "kunVocab":[["八","つ"]],
       "kunVocabRuby":[["やっ",""]],
+      "kunVocabMeaning":[["eight things"]],
       "onVocab":[["八","時"]],
-      "onVocabRuby":[["はち","じ"]]
+      "onVocabRuby":[["はち","じ"]],
+      "onVocabMeaning":[["eight o'clock"]]
    },
    {
       "kanji":"九",
@@ -86,8 +102,10 @@
       "on":"きゅう、く",
       "kunVocab":[["九","つ"]],
       "kunVocabRuby":[["ここの",""]],
+      "kunVocabMeaning":[["five things"]],
       "onVocab":[["九","時"]],
-      "onVocabRuby":[["く","じ"]]
+      "onVocabRuby":[["く","じ"]],
+      "onVocabMeaning":[["nine o'clock"]]
    },
    {
       "kanji":"十",
@@ -96,8 +114,10 @@
       "on":"じゅう、じゅっ",
       "kunVocab":[["十","日"]],
       "kunVocabRuby":[["とお","か"]],
+      "kunVocabMeaning":[["tenth day (of a month)"]],
       "onVocab":[["十","時"]],
-      "onVocabRuby":[["じゅう","じ"]]
+      "onVocabRuby":[["じゅう","じ"]],
+      "onVocabMeaning":[["ten o'clock"]]
    },
    {
       "kanji":"百",
@@ -106,8 +126,10 @@
       "on":"ひゃく",
       "kunVocab":[["None"]],
       "kunVocabRuby":[[""]],
+      "kunVocabMeaning":[[""]],
       "onVocab":[["四","百"]],
-      "onVocabRuby":[["よん","ひゃく"]]
+      "onVocabRuby":[["よん","ひゃく"]],
+      "onVocabMeaning":[["four hundred"]]
    },
    {
       "kanji":"千",
@@ -116,8 +138,10 @@
       "on":"せん",
       "kunVocab":[["None"]],
       "kunVocabRuby":[[""]],
+      "kunVocabMeaning":[[""]],
       "onVocab":[["五","千"]],
-      "onVocabRuby":[["ご","せん"]]
+      "onVocabRuby":[["ご","せん"]],
+      "onVocabMeaning":[["five thousand"]]
    },
    {
       "kanji":"万",
@@ -126,8 +150,10 @@
       "on":"万",
       "kunVocab":[["None"]],
       "kunVocabRuby":[[""]],
+      "kunVocabMeaning":[[""]],
       "onVocab":[["六","万"]],
-      "onVocabRuby":[["ろく","まん"]]
+      "onVocabRuby":[["ろく","まん"]],
+      "onVocabMeaning":[["sixty thousand"]]
    },
    {
       "kanji":"円",
@@ -136,8 +162,10 @@
       "on":"えん",
       "kunVocab":[["円","い"]],
       "kunVocabRuby":[["まる",""]],
+      "kunVocabMeaning":[["circular, round"]],
       "onVocab":[["八","円"]],
-      "onVocabRuby":[["はち","えん"]]
+      "onVocabRuby":[["はち","えん"]],
+      "onVocabMeaning":[["eight yen"]]
    },
    {
       "kanji":"月",
@@ -146,8 +174,10 @@
       "on":"げつ、がつ",
       "kunVocab":[["お","月","さま"]],
       "kunVocabRuby":[["","つき",""]],
+      "kunVocabMeaning":[["The Moon"]],
       "onVocab":[["七","月"]],
-      "onVocabRuby":[["しち","がつ"]]
+      "onVocabRuby":[["しち","がつ"]],
+      "onVocabMeaning":[["July"]]
    },
    {
       "kanji":"日",
@@ -156,8 +186,10 @@
       "on":"に、にち",
       "kunVocab":[["お","日","さま"]],
       "kunVocabRuby":[["","ひ",""]],
+      "kunVocabMeaning":[["The Sun"]],
       "onVocab":[["日","本"]],
-      "onVocabRuby":[["に","ほん"]]
+      "onVocabRuby":[["に","ほん"]],
+      "onVocabMeaning":[["Japan"]]
    },
    {
       "kanji":"本",
@@ -165,9 +197,11 @@
       "kun":"もと",
       "on":"ほん",
       "kunVocab":[["本"]],
+      "kunVocabMeaning":[["origin"]],
       "kunVocabRuby":[["もと"]],
       "onVocab":[["本","人"]],
-      "onVocabRuby":[["ほん","にん"]]
+      "onVocabRuby":[["ほん","にん"]],
+      "onVocabMeaning":[["the person in question"]]
    },
    {
       "kanji":"人",
@@ -176,8 +210,10 @@
       "on":"にん、じん",
       "kunVocab":[["人"]],
       "kunVocabRuby":[["ひと"]],
+      "kunVocabMeaning":[["person"]],
       "onVocab":[["アメリカ","人"]],
-      "onVocabRuby":[["","じん"]]
+      "onVocabRuby":[["","じん"]],
+      "onVocabMeaning":[["American"]]
    },
    {
       "kanji":"学",
@@ -186,8 +222,10 @@
       "on":"がく",
       "kunVocab":[["学","ぶ"]],
       "kunVocabRuby":[["まな",""]],
+      "kunVocabMeaning":[["to study"]],
       "onVocab":[["大","学"]],
-      "onVocabRuby":[["だい","がく"]]
+      "onVocabRuby":[["だい","がく"]],
+      "onVocabMeaning":[["University"]]
    },
    {
       "kanji":"生",
@@ -195,9 +233,11 @@
       "kun":"(い)きる",
       "on":"せい",
       "kunVocab":[["生","きる"]],
+      "kunVocabMeaning":[["to live"]],
       "kunVocabRuby":[["い",""]],
       "onVocab":[["先","生"]],
-      "onVocabRuby":[["せん","せい"]]
+      "onVocabRuby":[["せん","せい"]],
+      "onVocabMeaning":[["teacher"]]
    },
    {
       "kanji":"上",
@@ -206,8 +246,10 @@
       "on":"じょう",
       "kunVocab":[["上","がる"]],
       "kunVocabRuby":[["あ",""]],
+      "kunVocabMeaning":[["to rise"]],
       "onVocab":[["上","下"]],
-      "onVocabRuby":[["じょう","げ"]]
+      "onVocabRuby":[["じょう","げ"]],
+      "onVocabMeaning":[["up and down"]]
    },
    {
       "kanji":"下",
@@ -216,8 +258,10 @@
       "on":"か、げ",
       "kunVocab":[["下"]],
       "kunVocabRuby":[["した"]],
+      "kunVocabMeaning":[["down"]],
       "onVocab":[["上","下"]],
-      "onVocabRuby":[["じょう","げ"]]
+      "onVocabRuby":[["じょう","げ"]],
+      "onVocabMeaning":[["up and down"]]
    },
    {
       "kanji":"時",
@@ -226,8 +270,10 @@
       "on":"じ",
       "kunVocab":[["時","々"]],
       "kunVocabRuby":[["とき","どき"]],
+      "kunVocabMeaning":[["sometimes"]],
       "onVocab":[["四","時"]],
-      "onVocabRuby":[["よ","じ"]]
+      "onVocabRuby":[["よ","じ"]],
+      "onVocabMeaning":[["four o'clock"]]
    },
    {
       "kanji":"分",
@@ -236,8 +282,10 @@
       "on":"ぶん、ふん",
       "kunVocab":[["分","かる"]],
       "kunVocabRuby":[["わ",""]],
-      "onVocab":[["十","分"]],
-      "onVocabRuby":[["じゅっ","ぷん"]]
+      "kunVocabMeaning":[["to understand"]],
+      "onVocab":[["二","分"]],
+      "onVocabRuby":[["に","ふん"]],
+      "onVocabMeaning":[["two minutes"]]
    },
    {
       "kanji":"山",
@@ -246,8 +294,10 @@
       "on":"さん",
       "kunVocab":[["山"]],
       "kunVocabRuby":[["やま"]],
+      "kunVocabMeaning":[["mountain"]],
       "onVocab":[["富士","山"]],
-      "onVocabRuby":[["ふじ","さん"]]
+      "onVocabRuby":[["ふじ","さん"]],
+      "onVocabMeaning":[["Mount Fuji"]]
    },
    {
       "kanji":"川",
@@ -256,8 +306,10 @@
       "on":"せん (You won't need to know this)",
       "kunVocab":[["川"]],
       "kunVocabRuby":[["かわ"]],
+      "kunVocabMeaning":[["river"]],
       "onVocab":[["None"]],
-      "onVocabRuby":[[""]]
+      "onVocabRuby":[[""]],
+      "onVocabMeaning":[[""]]
    },
    {
       "kanji":"中",
@@ -266,8 +318,10 @@
       "on":"ちゅう",
       "kunVocab":[["山","中"]],
       "kunVocabRuby":[["やま","なか"]],
+      "kunVocabMeaning":[["within mountains"]],
       "onVocab":[["中","学","生"]],
-      "onVocabRuby":[["ちゅう","がく","せい"]]
+      "onVocabRuby":[["ちゅう","がく","せい"]],
+      "onVocabMeaning":[["middle schooler"]]
    },
    {
       "kanji":"外",
@@ -276,8 +330,10 @@
       "on":"がい",
       "kunVocab":[["外"]],
       "kunVocabRuby":[["そと"]],
+      "kunVocabMeaning":[["outside"]],
       "onVocab":[["外","人"]],
-      "onVocabRuby":[["がい","じん"]]
+      "onVocabRuby":[["がい","じん"]],
+      "onVocabMeaning":[["foreigner"]]
    },
    {
       "kanji":"田",
@@ -286,8 +342,10 @@
       "on":"でん (You won't need to know this)",
       "kunVocab":[["田","中"]],
       "kunVocabRuby":[["た","なか"]],
+      "kunVocabMeaning":[["Tanaka"]],
       "onVocab":[["None"]],
-      "onVocabRuby":[[""]]
+      "onVocabRuby":[[""]],
+      "onVocabMeaning":[[""]]
    },
    {
       "kanji":"何",
@@ -296,8 +354,10 @@
       "on":"か (You don't need to know this)",
       "kunVocab":[["何","時"]],
       "kunVocabRuby":[["なん","じ"]],
+      "kunVocabMeaning":[["what time"]],
       "onVocab":[["None"]],
-      "onVocabRuby":[[""]]
+      "onVocabRuby":[[""]],
+      "onVocabMeaning":[[""]]
    },
    {
       "kanji":"右",
@@ -306,8 +366,10 @@
       "on":"う、ゆう",
       "kunVocab":[["右"]],
       "kunVocabRuby":[["みぎ"]],
+      "kunVocabMeaning":[["right"]],
       "onVocab":[["左","右"]],
-      "onVocabRuby":[["さ","ゆう"]]
+      "onVocabRuby":[["さ","ゆう"]],
+      "onVocabMeaning":[["left and right"]]
    },
    {
       "kanji":"左",
@@ -316,8 +378,10 @@
       "on":"さ",
       "kunVocab":[["左"]],
       "kunVocabRuby":[["ひだり"]],
+      "kunVocabMeaning":[["left"]],
       "onVocab":[["左","右"]],
-      "onVocabRuby":[["さ","ゆう"]]
+      "onVocabRuby":[["さ","ゆう"]],
+      "onVocabMeaning":[["left and right"]]
    },
    {
       "kanji":"大",
@@ -326,8 +390,10 @@
       "on":"だい、たい",
       "kunVocab":[["大","きい"]],
       "kunVocabRuby":[["おお",""]],
+      "kunVocabMeaning":[["big"]],
       "onVocab":[["大","学"]],
-      "onVocabRuby":[["だい","がく"]]
+      "onVocabRuby":[["だい","がく"]],
+      "onVocabMeaning":[["university"]]
    },
    {
       "kanji":"小",
@@ -336,8 +402,10 @@
       "on":"しょう",
       "kunVocab":[["小","さい"]],
       "kunVocabRuby":[["ちい",""]],
+      "kunVocabMeaning":[["small"]],
       "onVocab":[["小","学","生"]],
-      "onVocabRuby":[["しょう","がく","せい"]]
+      "onVocabRuby":[["しょう","がく","せい"]],
+      "onVocabMeaning":[["elementary schooler"]]
    },
    {
       "kanji":"目",
@@ -346,8 +414,10 @@
       "on":"もく",
       "kunVocab":[["目"]],
       "kunVocabRuby":[["め"]],
+      "kunVocabMeaning":[["eye"]],
       "onVocab":[["目","的"]],
-      "onVocabRuby":[["もく","てき"]]
+      "onVocabRuby":[["もく","てき"]],
+      "onVocabMeaning":[["goal"]]
    },
    {
       "kanji":"口",
@@ -356,7 +426,9 @@
       "on":"こう",
       "kunVocab":[["口"]],
       "kunVocabRuby":[["くち"]],
+      "kunVocabMeaning":[["mouth"]],
       "onVocab":[["人","口"]],
-      "onVocabRuby":[["じん","こう"]]
+      "onVocabRuby":[["じん","こう"]],
+      "onVocabMeaning":[["population"]]
    }
 ]
