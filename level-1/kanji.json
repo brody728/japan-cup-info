@@ -1,6 +1,7 @@
 [
    {
       "kanji":"一",
+      "meaning":"one",
       "kun":"ひと",
       "on":"いち",
       "kunVocab":[["一","人"],["一","つ"]],
@@ -10,6 +11,7 @@
    },
    {
       "kanji":"二",
+      "meaning":"two",
       "kun":"ふた",
       "on":"に",
       "kunVocab":[["二","人"]],
@@ -19,6 +21,7 @@
    },
    {
       "kanji":"三",
+      "meaning":"three",
       "kun":"さん",
       "on":"み、みっ",
       "kunVocab":[["三","つ"]],
@@ -28,6 +31,7 @@
    },
    {
       "kanji":"四",
+      "meaning":"four",
       "kun":"よ、よっ、よん",
       "on":"し",
       "kunVocab":[["四","つ"]],
@@ -37,6 +41,7 @@
    },
    {
       "kanji":"五",
+      "meaning":"five",
       "kun":"いつ",
       "on":"ご",
       "kunVocab":[["五","つ"]],
@@ -46,6 +51,7 @@
    },
    {
       "kanji":"六",
+      "meaning":"six",
       "kun":"むい",
       "on":"ろく",
       "kunVocab":[["六","日"]],
@@ -55,6 +61,7 @@
    },
    {
       "kanji":"七",
+      "meaning":"seven",
       "kun":"なな、なの",
       "on":"しち",
       "kunVocab":[["七","つ"]],
@@ -64,6 +71,7 @@
    },
    {
       "kanji":"八",
+      "meaning":"eight",
       "kun":"や、やっ、よう",
       "on":"はち",
       "kunVocab":[["八","つ"]],
@@ -73,6 +81,7 @@
    },
    {
       "kanji":"九",
+      "meaning":"nine",
       "kun":"ここの",
       "on":"きゅう、く",
       "kunVocab":[["九","つ"]],
@@ -82,6 +91,7 @@
    },
    {
       "kanji":"十",
+      "meaning":"ten",
       "kun":"とお",
       "on":"じゅう、じゅっ",
       "kunVocab":[["十","日"]],
@@ -91,6 +101,7 @@
    },
    {
       "kanji":"百",
+      "meaning":"hundred",
       "kun":"もも (You won't need to know this one)",
       "on":"ひゃく",
       "kunVocab":[["None"]],
@@ -100,6 +111,7 @@
    },
    {
       "kanji":"千",
+      "meaning":"thousand",
       "kun":"ち (You probably won't need this one)",
       "on":"せん",
       "kunVocab":[["None"]],
@@ -109,6 +121,7 @@
    },
    {
       "kanji":"万",
+      "meaning":"ten thousand",
       "kun":"よろず (You definitely won't need to know this one)",
       "on":"万",
       "kunVocab":[["None"]],
@@ -118,6 +131,7 @@
    },
    {
       "kanji":"円",
+      "meaning":"yen, circle",
       "kun":"まる",
       "on":"えん",
       "kunVocab":[["円","い"]],
@@ -127,6 +141,7 @@
    },
    {
       "kanji":"月",
+      "meaning":"moon",
       "kun":"つき",
       "on":"げつ、がつ",
       "kunVocab":[["お","月","さま"]],
@@ -136,6 +151,7 @@
    },
    {
       "kanji":"日",
+      "meaning":"sun",
       "kun":"ひ",
       "on":"に、にち",
       "kunVocab":[["お","日","さま"]],
@@ -145,6 +161,7 @@
    },
    {
       "kanji":"本",
+      "meaning":"origin, book",
       "kun":"もと",
       "on":"ほん",
       "kunVocab":[["本"]],
@@ -154,6 +171,7 @@
    },
    {
       "kanji":"人",
+      "meaning":"person",
       "kun":"ひと",
       "on":"にん、じん",
       "kunVocab":[["人"]],
@@ -163,6 +181,7 @@
    },
    {
       "kanji":"学",
+      "meaning":"study",
       "kun":"(まな)ぶ",
       "on":"がく",
       "kunVocab":[["学","ぶ"]],
@@ -172,6 +191,7 @@
    },
    {
       "kanji":"生",
+      "meaning":"life",
       "kun":"(い)きる",
       "on":"せい",
       "kunVocab":[["生","きる"]],
@@ -181,6 +201,7 @@
    },
    {
       "kanji":"上",
+      "meaning":"up",
       "kun":"うえ、(あ)がる",
       "on":"じょう",
       "kunVocab":[["上","がる"]],
@@ -190,6 +211,7 @@
    },
    {
       "kanji":"下",
+      "meaning":"down",
       "kun":"した",
       "on":"か、げ",
       "kunVocab":[["下"]],
@@ -199,6 +221,7 @@
    },
    {
       "kanji":"時",
+      "meaning":"time",
       "kun":"とき",
       "on":"じ",
       "kunVocab":[["時","々"]],
@@ -208,6 +231,7 @@
    },
    {
       "kanji":"分",
+      "meaning":"part, minute",
       "kun":"(わ)かる",
       "on":"ぶん、ふん",
       "kunVocab":[["分","かる"]],
@@ -217,6 +241,7 @@
    },
    {
       "kanji":"山",
+      "meaning":"mountain",
       "kun":"やま",
       "on":"さん",
       "kunVocab":[["山"]],
@@ -226,6 +251,7 @@
    },
    {
       "kanji":"川",
+      "meaning":"river",
       "kun":"かわ",
       "on":"せん (You won't need to know this)",
       "kunVocab":[["川"]],
@@ -235,6 +261,7 @@
    },
    {
       "kanji":"中",
+      "meaning":"middle, inside",
       "kun":"なか",
       "on":"ちゅう",
       "kunVocab":[["山","中"]],
@@ -244,6 +271,7 @@
    },
    {
       "kanji":"外",
+      "meaning":"outside",
       "kun":"そと",
       "on":"がい",
       "kunVocab":[["外"]],
@@ -253,6 +281,7 @@
    },
    {
       "kanji":"田",
+      "meaning":"rice paddy",
       "kun":"た",
       "on":"でん (You won't need to know this)",
       "kunVocab":[["田","中"]],
@@ -262,6 +291,7 @@
    },
    {
       "kanji":"何",
+      "meaning":"what",
       "kun":"なに、なん",
       "on":"か (You don't need to know this)",
       "kunVocab":[["何","時"]],
@@ -271,6 +301,7 @@
    },
    {
       "kanji":"右",
+      "meaning":"right",
       "kun":"みぎ",
       "on":"う、ゆう",
       "kunVocab":[["右"]],
@@ -280,6 +311,7 @@
    },
    {
       "kanji":"左",
+      "meaning":"left",
       "kun":"ひだり",
       "on":"さ",
       "kunVocab":[["左"]],
@@ -289,6 +321,7 @@
    },
    {
       "kanji":"大",
+      "meaning":"big",
       "kun":"(おお)きい",
       "on":"だい、たい",
       "kunVocab":[["大","きい"]],
@@ -298,6 +331,7 @@
    },
    {
       "kanji":"小",
+      "meaning":"small",
       "kun":"(ちい)さい",
       "on":"しょう",
       "kunVocab":[["小","さい"]],
@@ -307,6 +341,7 @@
    },
    {
       "kanji":"目",
+      "meaning":"eye",
       "kun":"め",
       "on":"もく",
       "kunVocab":[["目"]],
@@ -316,6 +351,7 @@
    },
    {
       "kanji":"口",
+      "meaning":"mouth",
       "kun":"くち",
       "on":"こう",
       "kunVocab":[["口"]],
