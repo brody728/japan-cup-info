@@ -31,8 +31,10 @@ function addKanjiData(kanji) {
     onVocab.textContent = "On-yomi Vocabulary: "
 
     for (let i = 0; i < kanji.kunVocab.length; i++) {
-        if (kanji.kunVocabRuby !== "") addRuby(kunVocab, kanji.kunVocab[i], kanji.kunVocabRuby[i]);
-        else addWithoutRuby(kunVocab, kanji.kunVocab[i]);
+        for (let j = 0; j<kanji.kunVocab[i].length; j++) {
+            if (kanji.kunVocabRuby !== "") addRuby(kunVocab, kanji.kunVocab[i][j], kanji.kunVocabRuby[i][j]);
+            else addWithoutRuby(kunVocab, kanji.kunVocab[i][j]);
+        }
     }
 
     for (let i = 0; i < kanji.onVocab.length; i++) {

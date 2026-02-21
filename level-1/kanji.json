@@ -3,324 +3,324 @@
       "kanji":"一",
       "kun":"ひと",
       "on":"いち",
-      "kunVocab":["一","人"],
-      "kunVocabRuby":["ひと","り"],
-      "onVocab":["一","時"],
-      "onVocabRuby":["いち","じ"]
+      "kunVocab":[[["一","人"]]],
+      "kunVocabRuby":[[["ひと","り"]]],
+      "onVocab":[[["一","時"]]],
+      "onVocabRuby":[["いち","じ"]]
    },
    {
       "kanji":"二",
       "kun":"ふた",
       "on":"に",
-      "kunVocab":["二","人"],
-      "kunVocabRuby":["ふた","り"],
-      "onVocab":["二","時"],
-      "onVocabRuby":["に","じ"]
+      "kunVocab":[["二","人"]],
+      "kunVocabRuby":[["ふた","り"]],
+      "onVocab":[["二","時"]],
+      "onVocabRuby":[["に","じ"]]
    },
    {
       "kanji":"三",
       "kun":"さん",
       "on":"み、みっ",
-      "kunVocab":["三","つ"],
-      "kunVocabRuby":["みっ",""],
-      "onVocab":["三","時"],
-      "onVocabRuby":["さん","じ"]
+      "kunVocab":[["三","つ"]],
+      "kunVocabRuby":[["みっ",""]],
+      "onVocab":[["三","時"]],
+      "onVocabRuby":[["さん","じ"]]
    },
    {
       "kanji":"四",
       "kun":"よ、よっ、よん",
       "on":"し",
-      "kunVocab":["四","つ"],
-      "kunVocabRuby":["よっ",""],
-      "onVocab":["四","月"],
-      "onVocabRuby":["し","がつ"]
+      "kunVocab":[["四","つ"]],
+      "kunVocabRuby":[["よっ",""]],
+      "onVocab":[["四","月"]],
+      "onVocabRuby":[["し","がつ"]]
    },
    {
       "kanji":"五",
       "kun":"いつ",
       "on":"ご",
-      "kunVocab":["五","つ"],
-      "kunVocabRuby":["いつ",""],
-      "onVocab":["五","時"],
-      "onVocabRuby":["ご","じ"]
+      "kunVocab":[["五","つ"]],
+      "kunVocabRuby":[["いつ",""]],
+      "onVocab":[["五","時"]],
+      "onVocabRuby":[["ご","じ"]]
    },
    {
       "kanji":"六",
       "kun":"むい",
       "on":"ろく",
-      "kunVocab":["六","日"],
-      "kunVocabRuby":["むい","か"],
-      "onVocab":["六","時"],
-      "onVocabRuby":["ろく","じ"]
+      "kunVocab":[["六","日"]],
+      "kunVocabRuby":[["むい","か"]],
+      "onVocab":[["六","時"]],
+      "onVocabRuby":[["ろく","じ"]]
    },
    {
       "kanji":"七",
       "kun":"なな、なの",
       "on":"しち",
-      "kunVocab":["七","つ"],
-      "kunVocabRuby":["なな",""],
-      "onVocab":["七","時"],
-      "onVocabRuby":["しち","じ"]
+      "kunVocab":[["七","つ"]],
+      "kunVocabRuby":[["なな",""]],
+      "onVocab":[["七","時"]],
+      "onVocabRuby":[["しち","じ"]]
    },
    {
       "kanji":"八",
       "kun":"や、やっ、よう",
       "on":"はち",
-      "kunVocab":["八","つ"],
-      "kunVocabRuby":["やっ",""],
-      "onVocab":["八","時"],
-      "onVocabRuby":["はち","じ"]
+      "kunVocab":[["八","つ"]],
+      "kunVocabRuby":[["やっ",""]],
+      "onVocab":[["八","時"]],
+      "onVocabRuby":[["はち","じ"]]
    },
    {
       "kanji":"九",
       "kun":"ここの",
       "on":"きゅう、く",
-      "kunVocab":["九","つ"],
-      "kunVocabRuby":["ここの",""],
-      "onVocab":["九","時"],
-      "onVocabRuby":["く","じ"]
+      "kunVocab":[["九","つ"]],
+      "kunVocabRuby":[["ここの",""]],
+      "onVocab":[["九","時"]],
+      "onVocabRuby":[["く","じ"]]
    },
    {
       "kanji":"十",
       "kun":"とお",
       "on":"じゅう、じゅっ",
-      "kunVocab":["十","日"],
-      "kunVocabRuby":["とお","か"],
-      "onVocab":["十","時"],
-      "onVocabRuby":["じゅう","じ"]
+      "kunVocab":[["十","日"]],
+      "kunVocabRuby":[["とお","か"]],
+      "onVocab":[["十","時"]],
+      "onVocabRuby":[["じゅう","じ"]]
    },
    {
       "kanji":"百",
       "kun":"もも (You won't need to know this one)",
       "on":"ひゃく",
-      "kunVocab":["None"],
-      "kunVocabRuby":[""],
-      "onVocab":["四","百"],
-      "onVocabRuby":["よん","ひゃく"]
+      "kunVocab":[["None"]],
+      "kunVocabRuby":[[""]],
+      "onVocab":[["四","百"]],
+      "onVocabRuby":[["よん","ひゃく"]]
    },
    {
       "kanji":"千",
       "kun":"ち (You probably won't need this one)",
       "on":"せん",
-      "kunVocab":["None"],
-      "kunVocabRuby":[""],
-      "onVocab":["五","千"],
-      "onVocabRuby":["ご","せん"]
+      "kunVocab":[["None"]],
+      "kunVocabRuby":[[""]],
+      "onVocab":[["五","千"]],
+      "onVocabRuby":[["ご","せん"]]
    },
    {
       "kanji":"万",
       "kun":"よろず (You definitely won't need to know this one)",
       "on":"万",
-      "kunVocab":["None"],
-      "kunVocabRuby":[""],
-      "onVocab":["六","万"],
-      "onVocabRuby":["ろく","まん"]
+      "kunVocab":[["None"]],
+      "kunVocabRuby":[[""]],
+      "onVocab":[["六","万"]],
+      "onVocabRuby":[["ろく","まん"]]
    },
    {
       "kanji":"円",
       "kun":"まる",
       "on":"えん",
-      "kunVocab":["円","い"],
-      "kunVocabRuby":["まる",""],
-      "onVocab":["八","円"],
-      "onVocabRuby":["はち","えん"]
+      "kunVocab":[["円","い"]],
+      "kunVocabRuby":[["まる",""]],
+      "onVocab":[["八","円"]],
+      "onVocabRuby":[["はち","えん"]]
    },
    {
       "kanji":"月",
       "kun":"つき",
       "on":"げつ、がつ",
-      "kunVocab":["お","月","さま"],
-      "kunVocabRuby":["","つき",""],
-      "onVocab":["七","月"],
-      "onVocabRuby":["しち","がつ"]
+      "kunVocab":[["お","月","さま"]],
+      "kunVocabRuby":[["","つき",""]],
+      "onVocab":[["七","月"]],
+      "onVocabRuby":[["しち","がつ"]]
    },
    {
       "kanji":"日",
       "kun":"ひ",
       "on":"に、にち",
-      "kunVocab":["お","日","さま"],
-      "kunVocabRuby":["","ひ",""],
-      "onVocab":["日","本"],
-      "onVocabRuby":["に","ほん"]
+      "kunVocab":[["お","日","さま"]],
+      "kunVocabRuby":[["","ひ",""]],
+      "onVocab":[["日","本"]],
+      "onVocabRuby":[["に","ほん"]]
    },
    {
       "kanji":"本",
       "kun":"もと",
       "on":"ほん",
-      "kunVocab":["本"],
-      "kunVocabRuby":["もと"],
-      "onVocab":["本","人"],
-      "onVocabRuby":["ほん","にん"]
+      "kunVocab":[["本"]],
+      "kunVocabRuby":[["もと"]],
+      "onVocab":[["本","人"]],
+      "onVocabRuby":[["ほん","にん"]]
    },
    {
       "kanji":"人",
       "kun":"ひと",
       "on":"にん、じん",
-      "kunVocab":["人"],
-      "kunVocabRuby":["ひと"],
-      "onVocab":["アメリカ","人"],
-      "onVocabRuby":["","じん"]
+      "kunVocab":[["人"]],
+      "kunVocabRuby":[["ひと"]],
+      "onVocab":[["アメリカ","人"]],
+      "onVocabRuby":[["","じん"]]
    },
    {
       "kanji":"学",
       "kun":"(まな)ぶ",
       "on":"がく",
-      "kunVocab":["学","ぶ"],
-      "kunVocabRuby":["まな",""],
-      "onVocab":["大","学"],
-      "onVocabRuby":["だい","がく"]
+      "kunVocab":[["学","ぶ"]],
+      "kunVocabRuby":[["まな",""]],
+      "onVocab":[["大","学"]],
+      "onVocabRuby":[["だい","がく"]]
    },
    {
       "kanji":"生",
       "kun":"(い)きる",
       "on":"せい",
-      "kunVocab":["生","きる"],
-      "kunVocabRuby":["い",""],
-      "onVocab":["先","生"],
-      "onVocabRuby":["せん","せい"]
+      "kunVocab":[["生","きる"]],
+      "kunVocabRuby":[["い",""]],
+      "onVocab":[["先","生"]],
+      "onVocabRuby":[["せん","せい"]]
    },
    {
       "kanji":"上",
       "kun":"うえ、(あ)がる",
       "on":"じょう",
-      "kunVocab":["上","がる"],
-      "kunVocabRuby":["あ",""],
-      "onVocab":["上","下"],
-      "onVocabRuby":["じょう","げ"]
+      "kunVocab":[["上","がる"]],
+      "kunVocabRuby":[["あ",""]],
+      "onVocab":[["上","下"]],
+      "onVocabRuby":[["じょう","げ"]]
    },
    {
       "kanji":"下",
       "kun":"した",
       "on":"か、げ",
-      "kunVocab":["下"],
-      "kunVocabRuby":["した"],
-      "onVocab":["上","下"],
-      "onVocabRuby":["じょう","げ"]
+      "kunVocab":[["下"]],
+      "kunVocabRuby":[["した"]],
+      "onVocab":[["上","下"]],
+      "onVocabRuby":[["じょう","げ"]]
    },
    {
       "kanji":"時",
       "kun":"とき",
       "on":"じ",
-      "kunVocab":["時","々"],
-      "kunVocabRuby":["とき","どき"],
-      "onVocab":["四","時"],
-      "onVocabRuby":["よ","じ"]
+      "kunVocab":[["時","々"]],
+      "kunVocabRuby":[["とき","どき"]],
+      "onVocab":[["四","時"]],
+      "onVocabRuby":[["よ","じ"]]
    },
    {
       "kanji":"分",
       "kun":"(わ)かる",
       "on":"ぶん、ふん",
-      "kunVocab":["分","かる"],
-      "kunVocabRuby":["わ",""],
-      "onVocab":["十","分"],
-      "onVocabRuby":["じゅっ","ぷん"]
+      "kunVocab":[["分","かる"]],
+      "kunVocabRuby":[["わ",""]],
+      "onVocab":[["十","分"]],
+      "onVocabRuby":[["じゅっ","ぷん"]]
    },
    {
       "kanji":"山",
       "kun":"やま",
       "on":"さん",
-      "kunVocab":["山"],
-      "kunVocabRuby":["やま"],
-      "onVocab":["富士","山"],
-      "onVocabRuby":["ふじ","さん"]
+      "kunVocab":[["山"]],
+      "kunVocabRuby":[["やま"]],
+      "onVocab":[["富士","山"]],
+      "onVocabRuby":[["ふじ","さん"]]
    },
    {
       "kanji":"川",
       "kun":"かわ",
       "on":"せん (You won't need to know this)",
-      "kunVocab":["川"],
-      "kunVocabRuby":["かわ"],
-      "onVocab":["None"],
-      "onVocabRuby":[""]
+      "kunVocab":[["川"]],
+      "kunVocabRuby":[["かわ"]],
+      "onVocab":[["None"]],
+      "onVocabRuby":[[""]]
    },
    {
       "kanji":"中",
       "kun":"なか",
       "on":"ちゅう",
-      "kunVocab":["山","中"],
-      "kunVocabRuby":["やま","なか"],
-      "onVocab":["中","学","生"],
-      "onVocabRuby":["ちゅう","がく","せい"]
+      "kunVocab":[["山","中"]],
+      "kunVocabRuby":[["やま","なか"]],
+      "onVocab":[["中","学","生"]],
+      "onVocabRuby":[["ちゅう","がく","せい"]]
    },
    {
       "kanji":"外",
       "kun":"そと",
       "on":"がい",
-      "kunVocab":["外"],
-      "kunVocabRuby":["そと"],
-      "onVocab":["外","人"],
-      "onVocabRuby":["がい","じん"]
+      "kunVocab":[["外"]],
+      "kunVocabRuby":[["そと"]],
+      "onVocab":[["外","人"]],
+      "onVocabRuby":[["がい","じん"]]
    },
    {
       "kanji":"田",
       "kun":"た",
       "on":"でん (You won't need to know this)",
-      "kunVocab":["田","中"],
-      "kunVocabRuby":["た","なか"],
-      "onVocab":["None"],
-      "onVocabRuby":[""]
+      "kunVocab":[["田","中"]],
+      "kunVocabRuby":[["た","なか"]],
+      "onVocab":[["None"]],
+      "onVocabRuby":[[""]]
    },
    {
       "kanji":"何",
       "kun":"なに、なん",
       "on":"か (You don't need to know this)",
-      "kunVocab":["何","時"],
-      "kunVocabRuby":["なん","じ"],
-      "onVocab":["None"],
-      "onVocabRuby":[""]
+      "kunVocab":[["何","時"]],
+      "kunVocabRuby":[["なん","じ"]],
+      "onVocab":[["None"]],
+      "onVocabRuby":[[""]]
    },
    {
       "kanji":"右",
       "kun":"みぎ",
       "on":"う、ゆう",
-      "kunVocab":["右"],
-      "kunVocabRuby":["みぎ"],
-      "onVocab":["左","右"],
-      "onVocabRuby":["さ","ゆう"]
+      "kunVocab":[["右"]],
+      "kunVocabRuby":[["みぎ"]],
+      "onVocab":[["左","右"]],
+      "onVocabRuby":[["さ","ゆう"]]
    },
    {
       "kanji":"左",
       "kun":"ひだり",
       "on":"さ",
-      "kunVocab":["左"],
-      "kunVocabRuby":["ひだり"],
-      "onVocab":["左","右"],
-      "onVocabRuby":["さ","ゆう"]
+      "kunVocab":[["左"]],
+      "kunVocabRuby":[["ひだり"]],
+      "onVocab":[["左","右"]],
+      "onVocabRuby":[["さ","ゆう"]]
    },
    {
       "kanji":"大",
       "kun":"(おお)きい",
       "on":"だい、たい",
-      "kunVocab":["大","きい"],
-      "kunVocabRuby":["おお",""],
-      "onVocab":["大","学"],
-      "onVocabRuby":["だい","がく"]
+      "kunVocab":[["大","きい"]],
+      "kunVocabRuby":[["おお",""]],
+      "onVocab":[["大","学"]],
+      "onVocabRuby":[["だい","がく"]]
    },
    {
       "kanji":"小",
       "kun":"(ちい)さい",
       "on":"しょう",
-      "kunVocab":["小","さい"],
-      "kunVocabRuby":["ちい",""],
-      "onVocab":["小","学","生"],
-      "onVocabRuby":["しょう","がく","せい"]
+      "kunVocab":[["小","さい"]],
+      "kunVocabRuby":[["ちい",""]],
+      "onVocab":[["小","学","生"]],
+      "onVocabRuby":[["しょう","がく","せい"]]
    },
    {
       "kanji":"目",
       "kun":"め",
       "on":"もく",
-      "kunVocab":["目"],
-      "kunVocabRuby":["め"],
-      "onVocab":["目","的"],
-      "onVocabRuby":["もく","てき"]
+      "kunVocab":[["目"]],
+      "kunVocabRuby":[["め"]],
+      "onVocab":[["目","的"]],
+      "onVocabRuby":[["もく","てき"]]
    },
    {
       "kanji":"口",
       "kun":"くち",
       "on":"こう",
-      "kunVocab":["口"],
-      "kunVocabRuby":["くち"],
-      "onVocab":["人","口"],
-      "onVocabRuby":["じん","こう"]
+      "kunVocab":[["口"]],
+      "kunVocabRuby":[["くち"]],
+      "onVocab":[["人","口"]],
+      "onVocabRuby":[["じん","こう"]]
    }
 ]
