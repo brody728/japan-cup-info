@@ -92,3 +92,7 @@ div.place-entries {
     flex: 0 0 auto;
     margin: 1rem;
 }
+
+rt {
+    padding: .75em 0em;
+}
