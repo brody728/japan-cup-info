@@ -39,7 +39,7 @@ async function populate() {
 
         center.appendChild(seaHeader);
         center.appendChild(seaEntries);
-        seaHeader.textContent = "Major Japanese Islands"
+        seaHeader.textContent = "Major Japanese Oceans and Seas"
 
         for (sea of places.seas) addPlaceData(sea, seaEntries);
     }
