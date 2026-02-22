@@ -62,7 +62,7 @@ div.links {
 }
 
 div.center {
-    flex: 1;
+    flex: 1 0 10rem;
 }
 
 h2.kanji-header,
