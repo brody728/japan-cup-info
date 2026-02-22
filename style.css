@@ -56,14 +56,38 @@ div.right {
     flex: .5;
 }
 
+div.links {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
 div.center {
+    flex: 1;
+}
+
+h2.kanji-header,
+h2.place-header {
+    margin: 1rem;
+}
+
+div.kanji-entries {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 
 .kanji {
     flex: 1 1 15rem;
-    padding: 1rem;
+    margin: 1rem;
+}
+
+div.place-entries {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.place {
+    flex: 0 1 auto;
+    margin: 1rem;
 }

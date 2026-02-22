@@ -1,9 +1,18 @@
 const center = document.querySelector(".center");
+const kanjiHeader = document.createElement("h2");
+const kanjiEntries = document.createElement("div");
+
+kanjiHeader.setAttribute("class", "kanji-header");
+kanjiEntries.setAttribute("class", "kanji-entries");
+
+center.appendChild(kanjiHeader);
+center.appendChild(kanjiEntries);
+
+kanjiHeader.textContent = "Kanji";
 
 async function populate() {
     const file = "./kanji.json";
     const request = new Request(file);
-
     const response = await fetch(request);
     const kanjiList = await response.json();
 
@@ -12,7 +21,7 @@ async function populate() {
 
 function addKanjiData(kanji) {
     const kanjiEntry = document.createElement("div")
-    const kanjiChar = document.createElement("h2");
+    const kanjiChar = document.createElement("h3");
     const meaning = document.createElement("p");
     const kun = document.createElement("p");
     const on = document.createElement("p");
@@ -21,7 +30,7 @@ function addKanjiData(kanji) {
 
     kanjiEntry.setAttribute("class", "kanji")
 
-    center.appendChild(kanjiEntry);
+    kanjiEntries.appendChild(kanjiEntry);
     kanjiEntry.appendChild(kanjiChar);
     kanjiEntry.appendChild(meaning);
     kanjiEntry.appendChild(kun);
