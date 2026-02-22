@@ -6,8 +6,10 @@
       "on":"はん",
       "kunVocab":[["半","ば"]],
       "kunVocabRuby":[["なか",""]],
+      "kunVocabMeaning":[["halfway"]],
       "onVocab":[["一","時","半"]],
-      "onVocabRuby":[["いち","じ","はん"]]
+      "onVocabRuby":[["いち","じ","はん"]],
+      "onVocabMeaning":[["1:30"]]
    },
    {
       "kanji":"毎",
@@ -15,9 +17,11 @@
       "kun":"ごと",
       "on":"まい",
       "kunVocab":[["毎"]],
-      "kunVocabRuby":[["まい"]],
+      "kunVocabRuby":[["ごと"]],
+      "kunVocabMeaning":[["every"]],
       "onVocab":[["毎","日"]],
-      "onVocabRuby":[["まい","にち"]]
+      "onVocabRuby":[["まい","にち"]],
+      "onVocabMeaning":[["every day"]]
    },
    {
       "kanji":"曜",
@@ -26,8 +30,10 @@
       "on":"よう",
       "kunVocab":[["None"]],
       "kunVocabRuby":[[""]],
+      "kunVocabMeaning":[[""]],
       "onVocab":[["月","曜","日"]],
-      "onVocabRuby":[["げつ","よう","にち"]]
+      "onVocabRuby":[["げつ","よう","にち"]],
+      "onVocabMeaning":[["Monday"]]
    },
    {
       "kanji":"週",
@@ -36,8 +42,10 @@
       "on":"しゅう",
       "kunVocab":[["None"]],
       "kunVocabRuby":[[""]],
+      "kunVocabMeaning":[[""]],
       "onVocab":[["毎","週"]],
-      "onVocabRuby":[["まい","まい"]]
+      "onVocabRuby":[["まい","しゅう"]],
+      "onVocabMeaning":[["every week"]]
    },
    {
       "kanji":"年",
@@ -46,8 +54,10 @@
       "on":"ねん",
       "kunVocab":[["今","年"]],
       "kunVocabRuby":[["こ","とし"]],
+      "kunVocabMeaning":[["this year"]],
       "onVocab":[["来","年"]],
-      "onVocabRuby":[["らい","ねん"]]
+      "onVocabRuby":[["らい","ねん"]],
+      "onVocabMeaning":[["next year"]]
    },
    {
       "kanji":"今",
@@ -56,8 +66,10 @@
       "on":"こん",
       "kunVocab":[["今"]],
       "kunVocabRuby":[["いま"]],
+      "kunVocabMeaning":[["now"]],
       "onVocab":[["今","週"]],
-      "onVocabRuby":[["こん","しゅう"]]
+      "onVocabRuby":[["こん","しゅう"]],
+      "onVocabMeaning":[["this week"]]
    },
    {
       "kanji":"来",
@@ -66,8 +78,10 @@
       "on":"らい",
       "kunVocab":[["来","る"]],
       "kunVocabRuby":[["く",""]],
+      "kunVocabMeaning":[["to come"]],
       "onVocab":[["来","週"]],
-      "onVocabRuby":[["らい","しゅう"]]
+      "onVocabRuby":[["らい","しゅう"]],
+      "onVocabMeaning":[["next week"]]
    },
    {
       "kanji":"行",
@@ -76,8 +90,10 @@
       "on":"こう、ぎょう",
       "kunVocab":[["行","く"]],
       "kunVocabRuby":[["い",""]],
+      "kunVocabMeaning":[["to go"]],
       "onVocab":[["銀","行"]],
-      "onVocabRuby":[["ぎん","こう"]]
+      "onVocabRuby":[["ぎん","こう"]],
+      "onVocabMeaning":[["bank"]]
    },
    {
       "kanji":"入",
@@ -86,8 +102,10 @@
       "on":"にゅう",
       "kunVocab":[["入","る"]],
       "kunVocabRuby":[["はい",""]],
+      "kunVocabMeaning":[["to enter"]],
       "onVocab":[["入","学"]],
-      "onVocabRuby":[["にゅう","がく"]]
+      "onVocabRuby":[["にゅう","がく"]],
+      "onVocabMeaning":[["admission to a school"]]
    },
    {
       "kanji":"出",
@@ -96,8 +114,10 @@
       "on":"しゅつ",
       "kunVocab":[["出","る"]],
       "kunVocabRuby":[["で",""]],
+      "kunVocabMeaning":[["to exit"]],
       "onVocab":[["外","出"]],
-      "onVocabRuby":[["がい","しゅつ"]]
+      "onVocabRuby":[["がい","しゅつ"]],
+      "onVocabMeaning":[["going out"]]
    },
    {
       "kanji":"食",
@@ -106,8 +126,10 @@
       "on":"しょく",
       "kunVocab":[["食","べる"]],
       "kunVocabRuby":[["た",""]],
+      "kunVocabMeaning":[["to eat"]],
       "onVocab":[["飲","食"]],
-      "onVocabRuby":[["いん","しょく"]]
+      "onVocabRuby":[["いん","しょく"]],
+      "onVocabMeaning":[["food and drink"]]
    },
    {
       "kanji":"飲",
@@ -116,8 +138,10 @@
       "on":"いん",
       "kunVocab":[["飲","む"]],
       "kunVocabRuby":[["の",""]],
+      "kunVocabMeaning":[["to drink"]],
       "onVocab":[["飲","食"]],
-      "onVocabRuby":[["いん","しょく"]]
+      "onVocabRuby":[["いん","しょく"]],
+      "onVocabMeaning":[["food and drink"]]
    },
    {
       "kanji":"話",
@@ -126,8 +150,10 @@
       "on":"わ",
       "kunVocab":[["話","す"]],
       "kunVocabRuby":[["はな",""]],
+      "kunVocabMeaning":[["to speak"]],
       "onVocab":[["会","話"]],
-      "onVocabRuby":[["かい","わ"]]
+      "onVocabRuby":[["かい","わ"]],
+      "onVocabMeaning":[["conversation"]]
    },
    {
       "kanji":"聞",
@@ -136,8 +162,10 @@
       "on":"ぶん、もん",
       "kunVocab":[["聞","く"]],
       "kunVocabRuby":[["き",""]],
+      "kunVocabMeaning":[["to listen, to ask"]],
       "onVocab":[["新","聞"]],
-      "onVocabRuby":[["しん","ぶん"]]
+      "onVocabRuby":[["しん","ぶん"]],
+      "onVocabMeaning":[["news paper"]]
    },
    {
       "kanji":"書",
@@ -146,8 +174,10 @@
       "on":"しょ",
       "kunVocab":[["書","く"]],
       "kunVocabRuby":[["か",""]],
+      "kunVocabMeaning":[["to write"]],
       "onVocab":[["書","名"]],
-      "onVocabRuby":[["しょ","めい"]]
+      "onVocabRuby":[["しょ","めい"]],
+      "onVocabMeaning":[["book title"]]
    },
    {
       "kanji":"見",
@@ -156,8 +186,10 @@
       "on":"けん",
       "kunVocab":[["見","る"]],
       "kunVocabRuby":[["み",""]],
+      "kunVocabMeaning":[["to see"]],
       "onVocab":[["会","見"]],
-      "onVocabRuby":[["かい","けん"]]
+      "onVocabRuby":[["かい","けん"]],
+      "onVocabMeaning":[["interview"]]
    },
    {
       "kanji":"会",
@@ -166,8 +198,10 @@
       "on":"かい",
       "kunVocab":[["会","う"]],
       "kunVocabRuby":[["あ",""]],
+      "kunVocabMeaning":[["to meet"]],
       "onVocab":[["大","会"]],
-      "onVocabRuby":[["たい","かい"]]
+      "onVocabRuby":[["たい","かい"]],
+      "onVocabMeaning":[["tournament"]]
    },
    {
       "kanji":"帰",
@@ -176,8 +210,10 @@
       "on":"き",
       "kunVocab":[["帰","る"]],
       "kunVocabRuby":[["かえ",""]],
+      "kunVocabMeaning":[["to return"]],
       "onVocab":[["帰","国"]],
-      "onVocabRuby":[["き","こく"]]
+      "onVocabRuby":[["き","こく"]],
+      "onVocabMeaning":[["returning to one's home country"]]
    },
    {
       "kanji":"男",
@@ -186,8 +222,10 @@
       "on":"だん",
       "kunVocab":[["男","の","人"]],
       "kunVocabRuby":[["おとこ","","ひと"]],
+      "kunVocabMeaning":[["man"]],
       "onVocab":[["男","性"]],
-      "onVocabRuby":[["だん","せい"]]
+      "onVocabRuby":[["だん","せい"]],
+      "onVocabMeaning":[["man"]]
    },
    {
       "kanji":"女",
@@ -196,8 +234,10 @@
       "on":"じょ",
       "kunVocab":[["女","の","人"]],
       "kunVocabRuby":[["おんな","","ひと"]],
+      "kunVocabMeaning":[["woman"]],
       "onVocab":[["女","性"]],
-      "onVocabRuby":[["じょ","せい"]]
+      "onVocabRuby":[["じょ","せい"]],
+      "onVocabMeaning":[["woman"]]
    },
    {
       "kanji":"私",
@@ -206,8 +246,10 @@
       "on":"し",
       "kunVocab":[["私"]],
       "kunVocabRuby":[["わたし"]],
+      "kunVocabMeaning":[["I, me"]],
       "onVocab":[["私","用"]],
-      "onVocabRuby":[["し","よう"]]
+      "onVocabRuby":[["し","よう"]],
+      "onVocabMeaning":[["private use"]]
    },
    {
       "kanji":"名",
@@ -216,8 +258,10 @@
       "on":"めい",
       "kunVocab":[["名","前"]],
       "kunVocabRuby":[["な","まえ"]],
+      "kunVocabMeaning":[["name"]],
       "onVocab":[["有","名"]],
-      "onVocabRuby":[["ゆう","めい"]]
+      "onVocabRuby":[["ゆう","めい"]],
+      "onVocabMeaning":[["famous"]]
    },
    {
       "kanji":"好",
@@ -226,8 +270,10 @@
       "on":"こう",
       "kunVocab":[["好","き"]],
       "kunVocabRuby":[["す",""]],
+      "kunVocabMeaning":[["like"]],
       "onVocab":[["友","好"]],
-      "onVocabRuby":[["ゆう","こう"]]
+      "onVocabRuby":[["ゆう","こう"]],
+      "onVocabMeaning":[["friendship"]]
    },
    {
       "kanji":"国",
@@ -236,8 +282,10 @@
       "on":"こく、ごく",
       "kunVocab":[["国"]],
       "kunVocabRuby":[["くに"]],
+      "kunVocabMeaning":[["country"]],
       "onVocab":[["外","国"]],
-      "onVocabRuby":[["がい","こく"]]
+      "onVocabRuby":[["がい","こく"]],
+      "onVocabMeaning":[["foreign country"]]
    },
    {
       "kanji":"語",
@@ -246,8 +294,10 @@
       "on":"ご",
       "kunVocab":[["語","る"]],
       "kunVocabRuby":[["かた","る"]],
+      "kunVocabMeaning":[["to speak"]],
       "onVocab":[["言","語"]],
-      "onVocabRuby":[["げん","ご"]]
+      "onVocabRuby":[["げん","ご"]],
+      "onVocabMeaning":[["language"]]
    },
    {
       "kanji":"町",
@@ -256,8 +306,10 @@
       "on":"ちょう",
       "kunVocab":[["町"]],
       "kunVocabRuby":[["まち"]],
+      "kunVocabMeaning":[["town"]],
       "onVocab":[["None"]],
-      "onVocabRuby":[[""]]
+      "onVocabRuby":[[""]],
+      "onVocabMeaning":[[""]]
    },
    {
       "kanji":"元",
@@ -266,8 +318,10 @@
       "on":"げん",
       "kunVocab":[["元"]],
       "kunVocabRuby":[["もと"]],
+      "kunVocabMeaning":[["origin, beginning"]],
       "onVocab":[["元","気"]],
-      "onVocabRuby":[["げん","き"]]
+      "onVocabRuby":[["げん","き"]],
+      "onVocabMeaning":[["lively, healthy"]]
    },
    {
       "kanji":"正",
@@ -276,8 +330,10 @@
       "on":"せい、しょう",
       "kunVocab":[["正","しい"]],
       "kunVocabRuby":[["ただ",""]],
+      "kunVocabMeaning":[["correct"]],
       "onVocab":[["正","午"]],
-      "onVocabRuby":[["しょう","ご"]]
+      "onVocabRuby":[["しょう","ご"]],
+      "onVocabMeaning":[["noon"]]
    },
    {
       "kanji":"休",
@@ -286,8 +342,10 @@
       "on":"きゅう",
       "kunVocab":[["休","む"]],
       "kunVocabRuby":[["やす","む"]],
+      "kunVocabMeaning":[["to rest"]],
       "onVocab":[["None"]],
-      "onVocabRuby":[[""]]
+      "onVocabRuby":[[""]],
+      "onVocabMeaning":[[""]]
    },
    {
       "kanji":"近",
@@ -296,7 +354,9 @@
       "on":"きん",
       "kunVocab":[["近","い"]],
       "kunVocabRuby":[["ちか",""]],
+      "kunVocabMeaning":[["near"]],
       "onVocab":[["近","年"]],
-      "onVocabRuby":[["きん","ねん"]]
+      "onVocabRuby":[["きん","ねん"]],
+      "onVocabMeaning":[["recent years"]]
    }
 ]
