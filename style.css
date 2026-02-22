@@ -84,10 +84,11 @@ div.kanji-entries {
 div.place-entries {
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .place {
-    flex: 0 1 auto;
+    flex: 0 0 auto;
     margin: 1rem;
 }
