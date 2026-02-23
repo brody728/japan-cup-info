@@ -95,6 +95,11 @@ div.kanji-entries {
     flex: 0 1 17rem;
 }
 
+.kanji > h3,
+.place > h3 {
+  font-size: 2rem;
+}
+
 div.place-entries {
     flex: 1;
     display: flex;
@@ -103,7 +108,7 @@ div.place-entries {
 }
 
 .place {
-    flex: 0 0 10rem;
+    flex: 0 0 12rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
