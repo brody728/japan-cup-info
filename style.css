@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+#root {
+  background-color: #f1f1f1;
+}
+
 div.content {
     display: flex;
 }
@@ -74,11 +78,26 @@ div.kanji-entries {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.kanji,
+.place {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+
 }
 
 .kanji {
-    flex: 1 1 15rem;
-    margin: 1rem;
+    flex: 0 1 17rem;
+}
+
+.kanji > h3,
+.place > h3 {
+  font-size: 2rem;
 }
 
 div.place-entries {
@@ -89,11 +108,17 @@ div.place-entries {
 }
 
 .place {
-    flex: 0 0 auto;
+    flex: 0 0 12rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 2rem;
+    aspect-ratio: 1;
+}
+
+.place * {
+  text-align: center;
 }
 
 div.place-entries > h3,
