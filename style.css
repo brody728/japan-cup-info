@@ -104,3 +104,7 @@ div.place-entries > p {
 rt {
     padding: .75em 0em;
 }
+
+.hidden {
+  visibility: hidden;
+}
