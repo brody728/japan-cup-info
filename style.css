@@ -110,11 +110,11 @@ div.kanji-entries {
 
 .kanji h4,
 .place h4 {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .kanji span.line-head {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .kanji p {
@@ -153,5 +153,5 @@ rt {
 }
 
 span.vocab {
-  font-weight: 600;
+  font-weight: 700;
 }
