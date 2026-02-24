@@ -3,6 +3,10 @@
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
 
+html {
+  font-size: 20px;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -26,7 +30,7 @@ Posted by akky, modified by community. See post 'Timeline' for change history
 Retrieved 2026-02-23, License - CC BY-SA 3.0
 */
 
-  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Verdana, Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 
 }
 
@@ -150,6 +154,7 @@ div.place-entries > p {
 rt {
     padding: .25em 0em;
     font-weight: 500;
+    font-size: .625rem;
 }
 
 span.vocab {
