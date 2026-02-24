@@ -23,47 +23,69 @@ function addKanjiData(kanji) {
     const kanjiEntry = document.createElement("div")
     const kanjiChar = document.createElement("h3");
     const meaning = document.createElement("p");
+    const meaningSpan = document.createElement("span");
     const kun = document.createElement("p");
+    const kunSpan = document.createElement("span");
     const on = document.createElement("p");
+    const onSpan = document.createElement("span");
+    const kunVocabHeader = document.createElement("h4");
     const kunVocab = document.createElement("p");
+    const onVocabHeader = document.createElement("h4");
     const onVocab = document.createElement("p");
 
-    kanjiEntry.setAttribute("class", "kanji")
+    kanjiEntry.setAttribute("class", "kanji");
+    meaningSpan.setAttribute("class", "line-head");
+    kunSpan.setAttribute("class", "line-head");
+    onSpan.setAttribute("class", "line-head");
 
     kanjiEntries.appendChild(kanjiEntry);
     kanjiEntry.appendChild(kanjiChar);
     kanjiEntry.appendChild(meaning);
+    meaning.appendChild(meaningSpan);
     kanjiEntry.appendChild(kun);
+    kun.appendChild(kunSpan);
     kanjiEntry.appendChild(on);
+    on.appendChild(onSpan);
+    kanjiEntry.appendChild(kunVocabHeader);
     kanjiEntry.appendChild(kunVocab);
+    kanjiEntry.appendChild(onVocabHeader)
     kanjiEntry.appendChild(onVocab);
 
     kanjiChar.textContent = kanji.kanji;
-    meaning.textContent = `Meaning: ${kanji.meaning}`;
-    kun.textContent = `Kun-yomi: ${kanji.kun}`;
-    kunVocab.textContent = "Kun-yomi Vocabulary"
-    on.textContent = `On-yomi: ${kanji.on}`;
-    onVocab.textContent = "On-yomi Vocabulary"
+    meaningSpan.textContent = "Meaning: ";
+    meaning.appendChild(document.createTextNode(kanji.meaning))
+    kunSpan.textContent = "Kun-yomi: ";
+    kun.appendChild(document.createTextNode(kanji.kun));
+    kunVocabHeader.textContent = "Kun-yomi Vocabulary"
+    onSpan.textContent = "On-yomi: ";
+    on.appendChild(document.createTextNode(kanji.on));
+    onVocabHeader.textContent = "On-yomi Vocabulary"
 
     for (let i = 0; i < kanji.kunVocab.length; i++) {
-        kunVocab.append(document.createElement("br"));
+        const span = document.createElement("span");
+        kunVocab.appendChild(span);
+        span.setAttribute("class", "vocab");
 
         for (let j = 0; j < kanji.kunVocab[i].length; j++) {
-            if (kanji.kunVocabRuby[i][j] !== "") addRuby(kunVocab, kanji.kunVocab[i][j], kanji.kunVocabRuby[i][j]);
-            else addWithoutRuby(kunVocab, kanji.kunVocab[i][j]);
+            if (kanji.kunVocabRuby[i][j] !== "") addRuby(span, kanji.kunVocab[i][j], kanji.kunVocabRuby[i][j]);
+            else addWithoutRuby(span, kanji.kunVocab[i][j]);
         }
 
+        if (i < kunVocab.length - 1) kunVocab.append(document.createElement("br"));
         kunVocab.append(` ${kanji.kunVocabMeaning[i]}`);
     }
 
     for (let i = 0; i < kanji.onVocab.length; i++) {
-        onVocab.append(document.createElement("br"));
+        const span = document.createElement("span");
+        onVocab.appendChild(span);
+        span.setAttribute("class", "vocab");
 
         for (let j = 0; j < kanji.onVocab[i].length; j++) {
-            if (kanji.onVocabRuby[i][j] !== "") addRuby(onVocab, kanji.onVocab[i][j], kanji.onVocabRuby[i][j]);
-            else addWithoutRuby(onVocab, kanji.onVocab[i][j]);
+            if (kanji.onVocabRuby[i][j] !== "") addRuby(span, kanji.onVocab[i][j], kanji.onVocabRuby[i][j]);
+            else addWithoutRuby(span, kanji.onVocab[i][j]);
         }
 
+        if (i < kanji.onVocab.length - 1) onVocab.append(document.createElement("br"));
         onVocab.append(` ${kanji.onVocabMeaning[i]}`);
     }
 }
