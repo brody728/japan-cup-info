@@ -3,6 +3,10 @@
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
 
+html {
+  font-size: 20px;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -20,7 +24,14 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  font-family: sans-serif;
+  /*
+Source - https://stackoverflow.com/a/14573813
+Posted by akky, modified by community. See post 'Timeline' for change history
+Retrieved 2026-02-23, License - CC BY-SA 3.0
+*/
+
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", system-ui;
+
 }
 
 img, picture, video, canvas, svg {
@@ -53,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 
 div.content {
     display: flex;
+    justify-content: center;
 }
 
 div.left,
@@ -66,12 +78,12 @@ div.links {
 }
 
 div.center {
-    flex: 1 0 10rem;
+    flex: 0 1 63rem;
 }
 
 h2.kanji-header,
 h2.place-header {
-    margin: 1rem;
+    margin: 2rem;
 }
 
 div.kanji-entries {
@@ -95,9 +107,22 @@ div.kanji-entries {
     flex: 0 1 17rem;
 }
 
-.kanji > h3,
-.place > h3 {
+.kanji h3,
+.place h3 {
   font-size: 2rem;
+}
+
+.kanji h4,
+.place h4 {
+  font-weight: 700;
+}
+
+.kanji span.line-head {
+  font-weight: 700;
+}
+
+.kanji p {
+  line-height: 1.75em;
 }
 
 div.place-entries {
@@ -127,7 +152,13 @@ div.place-entries > p {
 }
 
 rt {
-    padding: .75em 0em;
+    padding: .25em 0em;
+    font-weight: 500;
+    font-size: .625rem;
+}
+
+span.vocab {
+  font-weight: 700;
 }
 
 .hidden {
