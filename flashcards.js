@@ -2,6 +2,60 @@ const center = document.querySelector(".center");
 
 const cards = [];
 
+async function initialLoad() {
+    const formDiv = document.createElement("div");
+    const setSelectionDiv = document.createElement("div");
+    const level1Kanji = document.createElement("input");
+    const level2Kanji = document.createElement("input");
+    const level2Places = document.createElement("input");
+    const level1KanjiLabel = document.createElement("label");
+    const level2KanjiLabel = document.createElement("label");
+    const level2PlacesLabel = document.createElement("label");
+    const btn = document.createElement("button");
+
+    level1Kanji.setAttribute("type", "checkbox");
+    level2Kanji.setAttribute("type", "checkbox");
+    level2Places.setAttribute("type", "checkbox");
+    level1Kanji.setAttribute("id", "level-1-kanji");
+    level2Kanji.setAttribute("id", "level-2-kanji");
+    level2Places.setAttribute("id", "level-2-places");
+    level1KanjiLabel.setAttribute("for", "level-1-kanji");
+    level2KanjiLabel.setAttribute("for", "level-2-kanji");
+    level2PlacesLabel.setAttribute("for", "level-2-places");
+
+    center.appendChild(formDiv);
+    formDiv.appendChild(setSelectionDiv);
+    formDiv.appendChild(btn);
+    setSelectionDiv.appendChild(level1Kanji);
+    setSelectionDiv.appendChild(level1KanjiLabel);
+    setSelectionDiv.appendChild(document.createElement("br"));
+    setSelectionDiv.appendChild(level2Kanji);
+    setSelectionDiv.appendChild(level2KanjiLabel);
+    setSelectionDiv.appendChild(document.createElement("br"));
+    setSelectionDiv.appendChild(level2Places);
+    setSelectionDiv.appendChild(level2PlacesLabel);
+
+    btn.textContent = "Start";
+    level1KanjiLabel.textContent = "Level 1 Kanji";
+    level2KanjiLabel.textContent = "Level 2 Kanji";
+    level2PlacesLabel.textContent = "Level 2 Places";
+
+    await getUserInput(btn);
+
+    if (level1Kanji.checked) {
+        await addKanjiCards("./level-1/kanji.json");
+    }
+    if (level2Kanji.checked) {
+        await addKanjiCards("./level-2/kanji.json");
+    }
+    // if (level2Places.checked) {
+    //     await addKanjiCards("./level-2/places.json");
+    // }
+
+    center.removeChild(formDiv);
+    reviewCards();
+}
+
 async function addKanjiCards(filePath) {
     const request = new Request(filePath);
     const response = await fetch(request);
@@ -9,13 +63,14 @@ async function addKanjiCards(filePath) {
 
     for (kanji of kanjiList) {
         for (i = 0; i < kanji.kunVocab.length; i++) {
-            const card = {
-                front: kanji.kunVocab[i],
-                frontRuby: kanji.kunVocabRuby[i],
-                back: kanji.kunVocabMeaning[i]
-            };
-
-            cards.push(card);
+            if (kanji.kunVocab[i][0] !== "None") {
+                const card = {
+                    front: kanji.kunVocab[i],
+                    frontRuby: kanji.kunVocabRuby[i],
+                    back: kanji.kunVocabMeaning[i]
+                };
+                cards.push(card);
+            }
         }
     }
 }
@@ -90,4 +145,5 @@ async function populate() {
     await reviewCards();
 }
 
-populate();
+initialLoad();
+// populate();
