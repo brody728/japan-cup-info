@@ -1,0 +1,14 @@
+[
+   {
+      "kanji":"一",
+      "meaning":"one",
+      "kun":"ひと",
+      "on":"いち",
+      "kunVocab":[["一","人"],["一","つ"]],
+      "kunVocabRuby":[["ひと","り"],["ひと",""]],
+      "kunVocabMeaning":["one person","one thing"],
+      "onVocab":[["一","時"]],
+      "onVocabRuby":[["いち","じ"]],
+      "onVocabMeaning":["one o'clock"]
+   }
+]
