@@ -109,7 +109,7 @@
    },
    {
       "kanji":"朝",
-      "meaning":"younger brother",
+      "meaning":"morning",
       "kun":"あさ",
       "on":"ちょう",
       "kunVocab":[["朝","ご","飯"]],
@@ -123,7 +123,7 @@
       "kanji":"昼",
       "meaning":"noon",
       "kun":"ひる",
-      "on":"",
+      "on":"ちゅう",
       "kunVocab":[["昼","寝"]],
       "kunVocabRuby":[["ひる","ね"]],
       "kunVocabMeaning":["nap"],
@@ -146,7 +146,7 @@
    {
       "kanji":"安",
       "meaning":"peaceful, cheap",
-      "kun":"(や)すい",
+      "kun":"(やす)い",
       "on":"あん",
       "kunVocab":[["安","い"]],
       "kunVocabRuby":[["やす",""]],
