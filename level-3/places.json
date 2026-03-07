@@ -1,0 +1,35 @@
+{
+    "cities":[
+        {
+            "name":["東","京"],
+            "nameRuby":["とう","きょう"],
+            "romaji":"Tokyo"
+        }
+    ],
+    "islands":[
+        {
+            "name":["本","州"],
+            "nameRuby":["ほん","しゅう"],
+            "romaji":"Honshu"
+        }
+    ],
+    "seas":[
+        {
+            "name":["太","平","洋"],
+            "nameRuby":["たい","へい","よう"],
+            "romaji":"Pacific Ocean"
+        }
+    ],
+    "regions":[
+
+    ],
+    "tokyoAreas":[
+
+    ],
+    "airports":[
+
+    ],
+    "mountainsLakes": [
+
+    ]
+}

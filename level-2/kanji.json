@@ -290,7 +290,7 @@
    {
       "kanji":"語",
       "meaning":"word, speech, language",
-      "kun":"かたる",
+      "kun":"(かた)る",
       "on":"ご",
       "kunVocab":[["語","る"]],
       "kunVocabRuby":[["かた",""]],
@@ -700,7 +700,7 @@
       "meaning":"rain",
       "kun":"あめ",
       "on":"う",
-      "kunVocab":[["あめ"]],
+      "kunVocab":[["雨"]],
       "kunVocabRuby":[["あめ"]],
       "kunVocabMeaning":["rain"],
       "onVocab":[["雨","天"]],
@@ -787,7 +787,7 @@
       "kunVocab":[["子","ども"]],
       "kunVocabRuby":[["こ",""]],
       "kunVocabMeaning":["child, children"],
-      "onVocab":[["男","こ"]],
+      "onVocab":[["男","子"]],
       "onVocabRuby":[["だん","し"]],
       "onVocabMeaning":["boy"]
    }
