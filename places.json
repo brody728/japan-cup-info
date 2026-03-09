@@ -1,26 +1,31 @@
 {
     "cities":[
         {
+			"level":2,
             "name":["東","京"],
             "nameRuby":["とう","きょう"],
             "romaji":"Tokyo"
         },
         {
+			"level":2,
             "name":["京","都"],
             "nameRuby":["きょう","と"],
             "romaji": "Kyoto"
         },
         {
+			"level":2,
             "name":["大","坂"],
             "nameRuby":["おお","さか"],
             "romaji": "Osaka"
         },
         {
+			"level":2,
             "name":["横","浜"],
             "nameRuby":["よこ","はま"],
             "romaji": "Yokohama"
         },
         {
+			"level":2,
             "name":["名","古","屋"],
             "nameRuby":["な","ご","や"],
             "romaji": "Nagoya"
@@ -28,21 +33,25 @@
     ],
     "islands":[
         {
+			"level":2,
             "name":["本","州"],
             "nameRuby":["ほん","しゅう"],
             "romaji":"Honshu"
         },
         {
+			"level":2,
             "name":["九","州"],
             "nameRuby":["きゅう","しゅう"],
             "romaji":"Kyushu"
         },
         {
+			"level":2,
             "name":["四","国"],
             "nameRuby":["し","こく"],
             "romaji":"Shikoku"
         },
         {
+			"level":2,
             "name":["北","海","道"],
             "nameRuby":["ほっ","かい","どう"],
             "romaji":"Hokkaido"
@@ -50,11 +59,13 @@
     ],
     "seas":[
         {
+			"level":2,
             "name":["太","平","洋"],
             "nameRuby":["たい","へい","よう"],
             "romaji":"Pacific Ocean"
         },
         {
+			"level":2,
             "name":["日","本","海"],
             "nameRuby":["に","ほん","かい"],
             "romaji":"Sea of Japan"
