@@ -10,11 +10,13 @@ center.appendChild(kanjiEntries);
 
 kanjiHeader.textContent = "Kanji";
 
-async function populate() {
-    const file = "./kanji.json";
+async function populate(level) {
+    const file = "../kanji.json";
     const request = new Request(file);
     const response = await fetch(request);
-    const kanjiList = await response.json();
+    const data = await response.json();
+    console.log(data);
+    const kanjiList = data.filter((kanji) => kanji.level === level);
 
     for (kanji of kanjiList) addKanjiData(kanji);
 }
@@ -112,4 +114,4 @@ function addWithoutRuby(parent, mainText) {
     parent.append(mainText);
 }
 
-populate();
+// populate();

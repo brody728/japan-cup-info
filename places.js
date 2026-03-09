@@ -1,8 +1,12 @@
-async function populate() {
-    const file = "./places.json";
+async function populatePlaces(level) {
+    const file = "../places.json";
     const request = new Request(file);
     const response = await fetch(request);
-    const places = await response.json();
+    const data = await response.json();
+
+    const cities = data.cities.filter((city) => city.level === level);
+    const islands = data.islands.filter((island) => island.level === level);
+    const seas = data.seas.filter((sea) => sea.level === level);
 
     const cityHeader = document.createElement("h2");
     const cityEntries = document.createElement("div");
@@ -14,9 +18,9 @@ async function populate() {
     center.appendChild(cityEntries);
     cityHeader.textContent = "Major Japanese Cities"
 
-    for (city of places.cities) addPlaceData(city, cityEntries);
+    for (city of cities) addPlaceData(city, cityEntries);
 
-    if (places.islands.length > 0) {
+    if (islands.length > 0) {
         const islandHeader = document.createElement("h2");
         const islandEntries = document.createElement("div");
 
@@ -27,10 +31,10 @@ async function populate() {
         center.appendChild(islandEntries);
         islandHeader.textContent = "Major Japanese Islands"
 
-        for (island of places.islands) addPlaceData(island, islandEntries);
+        for (island of islands) addPlaceData(island, islandEntries);
     }
 
-    if (places.seas.length > 0) {
+    if (seas.length > 0) {
         const seaHeader = document.createElement("h2");
         const seaEntries = document.createElement("div");
 
@@ -41,7 +45,7 @@ async function populate() {
         center.appendChild(seaEntries);
         seaHeader.textContent = "Major Japanese Oceans and Seas"
 
-        for (sea of places.seas) addPlaceData(sea, seaEntries);
+        for (sea of seas) addPlaceData(sea, seaEntries);
     }
 }
 
@@ -80,5 +84,3 @@ function addRuby(parent, mainText, rubyText) {
     rt.textContent = rubyText;
     rp2.textContent = ")";
 }
-
-populate();
