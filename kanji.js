@@ -10,7 +10,7 @@ center.appendChild(kanjiEntries);
 
 kanjiHeader.textContent = "Kanji";
 
-async function populate(level) {
+async function populateKanji(level) {
     const file = "../kanji.json";
     const request = new Request(file);
     const response = await fetch(request);

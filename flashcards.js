@@ -1,6 +1,20 @@
 const center = document.querySelector(".center");
+const selector = document.querySelector("#selector");
+const kanjiOptions = document.querySelector("#kanji-options");
+const placesOptions = document.querySelector("#places-options");
 
 const cards = [];
+
+selector.addEventListener("change", () => {
+    if (selector.value === "kanji") {
+        kanjiOptions.className = "";
+        placesOptions.className = "hidden";
+    }
+    if (selector.value === "places") {
+        placesOptions.className = "";
+        kanjiOptions.className = "hidden";
+    }
+});
 
 async function initialLoad() {
     let setSelected = false;

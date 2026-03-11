@@ -162,5 +162,5 @@ span.vocab {
 }
 
 .hidden {
-  visibility: hidden;
+  display: none;
 }

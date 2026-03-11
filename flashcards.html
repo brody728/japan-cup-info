@@ -18,23 +18,62 @@
         <div class="center">
             <div class="form-div">
                 <div class="set-selection">
-                    <input type="checkbox" name="level-1-kanji" id="level-1-kanji">
-                    <label for="level-1-kanji">Level 1 Kanji</label>
+                    <select name="card-type" id="selector">
+                        <option value="na" disabled selected>Choose an option</option>
+                        <option value="kanji">Kanji</option>
+                        <option value="places">Places</option>
+                    </select>
                     <br>
-                    <input type="checkbox" name="level-2-kanji" id="level-2-kanji">
-                    <label for="level-2-kanji">Level 2 Kanji</label>
+                    <div class="hidden" id="kanji-options">
+                        <div class="levels">
+                            <input type="checkbox" name="level-1-kanji" id="level-1-kanji">
+                            <label for="level-1-kanji">Level 1 Kanji</label>
+                            <br>
+                            <input type="checkbox" name="level-2-kanji" id="level-2-kanji">
+                            <label for="level-2-kanji">Level 2 Kanji</label>
+                            <br>
+                            <input type="checkbox" name="level-3-kanji" id="level-3-kanji">
+                            <label for="level-3-kanji">Level 3 Kanji</label>
+                        </div>
+                        <div class="type">
+                            <input type="checkbox" name="on=readings" id="on-readings">
+                            <label for="on-readings">On Readings</label>
+                            <br>
+                            <input type="checkbox" name="kun-vocab" id="kun-vocab">
+                            <label for="kun-vocab">Kun Vocab</label>
+                            <br>
+                            <input type="checkbox" name="on-vocab" id="on-vocab">
+                            <label for="on-vocab">On Vocab</label>
+                        </div>
+                        <div class="direction">
+                            <input type="radio" name="kanji-reading" id="kanji-reading">
+                            <label for="kanji-reading">Kanji to Reading and Meaning</label>
+                            <br>
+                            <input type="radio" name="meaning-kanji" id="meaning-kanji">
+                            <label for="meaning-kanji">Meaning to Kanji and Reading</label>
+                        </div>
+                        <button>Start</button>
+                    </div>
+                    <div class="hidden" id="places-options">
+                        <div class="levels">
+                            <input type="checkbox" name="level-2-places" id="level-2-places">
+                            <label for="level-2-places">Level 2 Places</label>
+                            <br>
+                            <input type="checkbox" name="level-3-places" id="level-3-places">
+                            <label for="level-3-places">Level 3 places</label>
+                        </div>
+                        <div class="direction">
+                            <input type="radio" name="kanji-reading" id="kanji-reading">
+                            <label for="kanji-reading">Kanji to Reading</label>
+                            <br>
+                            <input type="radio" name="meaning-kanji" id="meaning-kanji">
+                            <label for="meaning-kanji">Reading to Kanji</label>
+                        </div>
+                        <button>Start</button>
+                    </div>
                 </div>
                 <div class="set-type">
-                    <input type="checkbox" name="on=readings" id="on-readings">
-                    <label for="on-readings">On Readings</label>
-                    <br>
-                    <input type="checkbox" name="kun-vocab" id="kun-vocab">
-                    <label for="kun-vocab">Kun Vocab</label>
-                    <br>
-                    <input type="checkbox" name="on-vocab" id="on-vocab">
-                    <label for="on-vocab">On Vocab</label>
-                    <br>
-                    <button>Start</button>
+                    
                 </div>
             </div>
         </div>
